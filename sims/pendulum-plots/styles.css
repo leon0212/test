@@ -1,0 +1,26 @@
+.sim-button {
+  margin:3px 0;
+  display: inline-block;
+  width:100px;
+  padding: 15px 25px;
+  font-size: 15px;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #94c6d8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.sim-button:hover {background-color: #80a7b5}
+
+.sim-button:active {
+  background-color: #80a7b5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+}
